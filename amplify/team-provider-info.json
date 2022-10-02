@@ -10,6 +10,11 @@
       "StackName": "amplify-agility-main-150801",
       "StackId": "arn:aws:cloudformation:us-east-1:371180846743:stack/amplify-agility-main-150801/02554960-4264-11ed-8777-0ab36d36a081",
       "AmplifyAppId": "d2aspvh3251ga6"
+    },
+    "categories": {
+      "auth": {
+        "amplifysveltekit001": {}
+      }
     }
   },
   "staging": {

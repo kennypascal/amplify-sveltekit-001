@@ -1,10 +1,12 @@
-<script>
-	import Header from './Header.svelte';
-	import './styles.css';
-
+<script context="module">
 	import { Amplify } from 'aws-amplify';
 	import awsExports from 'aws-exports';
 	Amplify.configure({ ...awsExports, ssr: true });
+</script>
+
+<script>
+	import Header from './Header.svelte';
+	import './styles.css';
 </script>
 
 <div class="app">

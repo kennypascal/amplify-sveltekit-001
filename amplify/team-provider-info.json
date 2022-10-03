@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifysveltekit001": {}
+      },
+      "function": {
+        "amplifysveltekit00132b92080": {
+          "deploymentBucketName": "amplify-agility-main-150801-deployment",
+          "s3Key": "amplify-builds/amplifysveltekit00132b92080-67743561655372436a31-build.zip"
+        }
       }
     }
   },

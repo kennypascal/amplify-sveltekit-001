@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/sverdle": {
+      "name": "/sverdle",
+      "lambdaFunction": "amplifysveltekit00132b92080",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

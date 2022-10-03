@@ -8,25 +8,7 @@ import type { PageServerLoad, Actions } from './$types';
 Amplify.configure({ ...awsExports, ssr: true });
 
 export const load: PageServerLoad = ({ cookies }) => {
-	const game = new Game(cookies.get('sverdle'));
-
-	return {
-		/**
-		 * The player's guessed words so far
-		 */
-		guesses: [''],
-
-		/**
-		 * An array of strings like '__x_c' corresponding to the guesses, where 'x' means
-		 * an exact match, and 'c' means a close match (right letter, wrong place)
-		 */
-		answers: [''],
-
-		/**
-		 * The correct answer, revealed if the game is over
-		 */
-		answer: ['test']
-	};
+	return null
 };
 
 export const actions: Actions = {

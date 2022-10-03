@@ -1,6 +1,11 @@
+import { Amplify } from 'aws-amplify';
+import awsExports from 'aws-exports';
+
 import { invalid } from '@sveltejs/kit';
 import { words, allowed } from './words.server';
 import type { PageServerLoad, Actions } from './$types';
+
+Amplify.configure({ ...awsExports, ssr: true });
 
 export const load: PageServerLoad = ({ cookies }) => {
 	const game = new Game(cookies.get('sverdle'));

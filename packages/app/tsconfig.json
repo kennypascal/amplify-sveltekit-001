@@ -19,7 +19,7 @@
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		"baseUrl": ".",
+		"baseUrl": "https://main.d2aspvh3251ga6.amplifyapp.com",
 		"allowJs": true,
 		"checkJs": true,
 		"paths": {
